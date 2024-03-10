@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.hero {
+	height: 50vh;
+	background: linear-gradient( cyan, transparent), linear-gradient( -45deg, magenta, transparent), linear-gradient( 45deg, yellow, transparent), url(https://picsum.photos/g/2000/1200?image=443) center center / cover no-repeat;
+	background-blend-mode: multiply;
+}
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font : normal 600 72px/1 'Open Sans', sans-serif;
+	text-align: center;
+	white-space: nowrap;
+}
+h1 span {
+	display: block;
+	margin-top: 1em;
+	font-size: 40px;
+	font-weight: 300;
+}
